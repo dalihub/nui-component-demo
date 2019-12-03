@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Tizen">
+      <HintPath>libs/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen.Applications.Common">
+      <HintPath>libs/Tizen.Applications.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen.Log">
+      <HintPath>libs/Tizen.Log.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen.NUI">
+      <HintPath>libs/Tizen.NUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen.System.SystemSettings">
+      <HintPath>libs/Tizen.System.SystemSettings.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen.NUI.Components">
+      <HintPath>libs/Tizen.NUI.Components.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
